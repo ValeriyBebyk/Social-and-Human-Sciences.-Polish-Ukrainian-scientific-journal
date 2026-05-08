@@ -1,0 +1,55 @@
+/* Общие настройки */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Шапка как у EIKI */
+header {
+    background: #fff;
+    border-bottom: 2px solid #d32f2f; /* Красная линия как на скриншоте */
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #0d47a1; /* Темно-синий цвет */
+}
+
+/* Меню */
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #d32f2f;
+}
+
+/* Основной контент */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8em;
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+}
